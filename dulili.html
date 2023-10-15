@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/index.css">
+    <title>Homepage</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <title>homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+<div class="loading-overlay">
+    <img src="Images/blue bold YouTube intro.gif" alt="Loading" />
+</div>
+
+    
+        <nav class="navigation-bar">
+               <img class="logo" src="images/logo-black.png" alt="Logo"></a>
+                <a href="#">Resume </a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+    
+        <!-- Add this HTML structure for the dropdown menu -->
+<div class="menu-toggle">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+<div class="dropdown">
+    <ul class="menu-links">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome!</h1>
+                <h1> To Dulili Case Study,</h1>
+                   <p>A Travel App for Busy Users. As a UX/UI designer, I crafted Dulili to simplify the travel experience with a unique 'pause and play' function. Dive into this case study to explore how I designed a user-friendly solution that streamlines the travel process for the modern traveler on the go.</p>
+                <a href="#" class="cta-button">Contact me for collabration</a>
+            </div>
+            <div class="hero-image">
+                <img src="Images/Dulili.png" alt="Dulili Image">
+            </div>
+        </div>
+    </div>
+
+<h2 class="skills-title">Dulili case study</h2>
+<section class="case-study">
+    <div class="container">
+        <div class="case-content">
+            <div class="card">
+                <img src="images/Discovery.jpg" alt="Discovery">
+                <h3>Discovery</h3>
+                <p>Through in-depth user research, we identified the pain points of modern travelers and the need for a streamlined travel app solution. Understanding the importance of a hassle-free experience, we delved into the user's journey and pain points.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Ideation.png" alt="Ideation">
+                <h3>Ideation</h3>
+                <p>With a focus on user-centric design, we brainstormed and conceptualized a unique 'pause and play' function that allows users to manage their travel plans seamlessly. The emphasis was on simplicity and intuitive design to ensure a delightful user experience.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Testing.png" alt="Testing">
+                <h3>Testing</h3>
+                <p>We conducted extensive usability testing to validate our design choices and ensure that the app's features were easy to use and understand. Real user feedback played a crucial role in refining the app's functionality and enhancing its overall usability.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/PZgRglEMMph7erJZ.png" alt="Learning">
+                <h3>Learning</h3>
+                <p>Throughout the development process, we learned the significance of empathy-driven design and the impact of user feedback on product success. The journey with Dulili reinforced the importance of continuous iteration and improvement based on user experiences.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Footer -->
+<footer>
+    <div class="footer-container">
+      <h4> Let’s  Connect!</h4>
+      <p2>Send a Message if you would like to collaborate or just to say hi! </p2>
+        <ul class="social-media">
+            <li><a href="#" target="_blank"><img src="images/teenyicons_linkedin-outline.png" alt="LinkedIn"></a></li>
+            <li><a href="#" target="_blank"><img src="images/icon-park-outline_dribble.png" alt="Behance"></a></li>
+            <li><a href="#" target="_blank"><img src="images/arcticons_behance.png" alt="Dribbble"></a></li>
+        </ul>
+    </div>
+
+          <div class="small-text">
+            <small>&copy;2023 Your Website</small>
+          </div>
+      </footer>
+
+<!-- Include jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jQuery code for vertical dropdown menu -->
+<script>
+    $(document).ready(function() {
+        // When the menu-toggle is clicked
+        $(".menu-toggle").click(function() {
+            // Toggle the "active" class on the dropdown
+            $(".dropdown").toggleClass("active");
+
+            // Slide the dropdown vertically
+            $(".dropdown").slideToggle("fast");
+        });
+    });
+</script>
+
+<script>
+    // Simulate a delay to showcase the loading GIF (replace with your loading logic)
+    setTimeout(function () {
+        // Remove the loading overlay when the content is ready
+        document.querySelector('.loading-overlay').style.display = 'none';
+    }, 3000); // Adjust the delay (in milliseconds) as needed
+</script>
+
+
+  </body>
+  </html>
+  
+
+
+   
